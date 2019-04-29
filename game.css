@@ -1,0 +1,40 @@
+body{
+    margin:0;
+    paddin:0;
+}
+
+.painel{
+    width:500px;
+    margin:auto;
+    margin-top:20px;
+}
+
+.tabuleiro{
+    float:left;
+  width:500px;
+}
+
+.vencedor{
+    background:darkgreen!important;
+    color:white;
+}
+
+.quadrado{
+    padding:0px;
+    width:150px;
+    height:150px;
+    background:#ccc;
+    border: 2px solid #000;
+    float:left;
+    margin: 2px;
+    text-align: center;
+    font-size:90px;
+}
+
+.historico-partida{
+    width:300px;
+    height: 500px;
+    background:#ccc;
+    float:left;
+    margin: 0 20px;
+}
